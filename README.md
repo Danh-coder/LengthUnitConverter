@@ -34,9 +34,8 @@ To run this project, you will need Android Studio.
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Danh-coder/LengthUnitConverter.git
     ```
-    *(Replace `<repository_url>` with the actual URL of your repository)*
 
 2.  **Open in Android Studio:**
     *   Launch Android Studio.
