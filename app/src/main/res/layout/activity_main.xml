@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_value"
+        android:labelFor="@+id/inputValueEditText"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <EditText
+        android:id="@+id/inputValueEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/enter_number"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/from_unit"
+        android:labelFor="@+id/fromUnitSpinner"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <Spinner
+        android:id="@+id/fromUnitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/to_unit"
+        android:labelFor="@+id/toUnitSpinner"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <Spinner
+        android:id="@+id/toUnitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="@string/convert" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        tools:text="Result: 10.0 Metres" />
+
+</LinearLayout>

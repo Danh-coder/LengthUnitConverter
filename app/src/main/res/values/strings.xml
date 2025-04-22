@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Logbook_LengthConverter</string>
+    <string name="title">Length Unit Converter</string>
+    <string name="enter_value">Enter Value:</string>
+    <string name="enter_number">Enter a number</string>
+    <string name="from_unit">From Unit:</string>
+    <string name="to_unit">To Unit:</string>
+    <string name="convert">Convert</string>
+    <string-array name="length_units">
+        <item>Metre</item>
+        <item>Millimetre</item>
+        <item>Mile</item>
+        <item>Foot</item>
+    </string-array>
+
+
+    <!-- <string name="app_name">LengthConverter</string> -->
+</resources>
